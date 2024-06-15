@@ -9,6 +9,9 @@ With EasyComplaints.ai, users can effortlessly register complaints in various fo
 
 For staff members, EasyComplaints.ai offers a dedicated dashboard that categorizes complaints based on departmental divisions, ensuring efficient and streamlined management. Complaints are automatically sorted into their respective departments, allowing staff to review, process, and mark them as resolved or rejected with ease.
 
+
+For the Image Dataset we scrapped the Internet for Four categories Road,Water,Electricity and  Waste Management  and generated captions on our own.Since it was taking time to collect dataset we settled on these 4 categories and used data augmentation on it.
+
 Requirements
 ------------
 - Python 3.10.11
@@ -16,7 +19,7 @@ Requirements
 
 Installation
 ------------
-1. Extract the EasyComplaints.zip folder to a location of your choice.
+1. Clone the repo to the desired location.
 2. Open a terminal or command prompt and navigate to the extracted folder.
 3. Install the required Python packages by running the following command:
 
